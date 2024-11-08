@@ -47,7 +47,7 @@ const Education = () => {
             title="Frontend Developer"
             subTitle="Infosys (2024 - present)"
             result="HYD"
-            des="Working on various frontend technologies and frameworks and gaining knowledge on some backend technologies also"
+            des="Working on various frontend technologies and frameworks and gaining knowledge on some backend technologies also."
           />
         </div>
       </div>
