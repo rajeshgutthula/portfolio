@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex gap-4">
           <span className="bannerIcon">
             <a
-              href="https://github.com/sant0143"
+              href="https://github.com/rajeshgutthula"
               target="_blank"
               rel="noreferrer"
             >
@@ -19,7 +19,7 @@ const Footer = () => {
           </span>
           <span className="bannerIcon">
             <a
-              href="https://www.linkedin.com/in/santoshyeshwanth/"
+              href="https://www.linkedin.com/in/rajesh-gutthula-18409a228/"
               target="_blank"
               rel="noreferrer"
             >

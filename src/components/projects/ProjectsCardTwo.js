@@ -25,7 +25,7 @@ const ProjectsCardTwo = ({ title, des, src }) => {
                 </a>
               </span>
               <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-                <a href="$">
+                <a href="https://rajeshgutthula.github.io/portfolio/">
                   <FaGlobe />
                 </a>
               </span>
