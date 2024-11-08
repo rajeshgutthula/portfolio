@@ -11,26 +11,26 @@ const Education = () => {
     >
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm tracking-[4px] text-designColor">2004-2020</p>
+          <p className="text-sm tracking-[4px] text-designColor">2004-2021</p>
           <h2 className="text-3xl md:text-4xl font-bold">Education</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BE in Electronics and Comm. Engg."
-            subTitle="Birla Institute of Technology MESRA (2016 - 2020)"
-            result="RNC"
+            title="Bsc Computer Science"
+            subTitle="B V Raju Degree College (2018- 2021)"
+            result="BVRM"
             des="Trained and motivated by the university in order to prepare to work in various sectors of the economy or areas of culture."
           />
           <ResumeCard
             title="Intermediate-MPC"
-            subTitle="Sri Chaitanya Jr. College (2014 - 2016)"
-            result="VSKP"
+            subTitle="Narayana Jr College (2016 - 2018)"
+            result="TNKU"
             des="Higher education completed in MPC with a good result and successfully finished and qualified few of the enterance exams."
           />
           <ResumeCard
             title="Secondary School Education"
-            subTitle="St.Anns School (2004 - 2014)"
-            result="VSKP"
+            subTitle="Dr K.k.R's Gowtham Concepts School(2015 - 2016)"
+            result="TNKU"
             des="Secondary education or post-primary education completed with a good academic results."
           />
         </div>
@@ -38,14 +38,14 @@ const Education = () => {
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm tracking-[4px] text-designColor uppercase">
-            2020-present
+            2024-present
           </p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Frontend Developer"
-            subTitle="Infosys (2022 - present)"
+            subTitle="Infosys (2024 - present)"
             result="HYD"
             des="Working on various frontend technologies and frameworks and gaining knowledge on some backend technologies also"
           />

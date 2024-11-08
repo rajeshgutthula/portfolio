@@ -1,26 +1,26 @@
-import React, { useEffect, useState } from "react";
+import React, {useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import { SlLike } from "react-icons/sl";
+// import { SlLike } from "react-icons/sl";
 import { logo } from "../../assets/index";
 import { navLinksdata } from "../../constants";
 
 const Navbar = () => {
-  const intialState = () => Number(window.localStorage.getItem("like")) || 101;
+  // const intialState = () => Number(window.localStorage.getItem("like")) || 101;
   const [showMenu, setShowMenu] = useState(false);
-  const [like, setLike] = useState(intialState),
-    onLikeButtonClick = () => {
-      setLike(like + 1);
-    };
-  useEffect(() => {
-    window.localStorage.setItem("like", like);
-  }, [like]);
+  // const [like, setLike] = useState(intialState),
+  //   onLikeButtonClick = () => {
+  //     setLike(like + 1);
+  //   };
+  // useEffect(() => {
+  //   window.localStorage.setItem("like", like);
+  // }, [like]);
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
-        <img className="w-30 h-44 mt-2 object-cover" src={logo} alt="logo" />
+        <img className="w-35 h-12 mt-2 object-cover" src={logo} alt="logo" />
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
@@ -41,12 +41,12 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
-          <span className="">
+          {/* <span className="">
             <button>
               <SlLike className="likebtn" onClick={onLikeButtonClick} />
             </button>
             <p>{like}</p>
-          </span>
+          </span> */}
         </ul>
         <span
           onClick={() => setShowMenu(!showMenu)}
